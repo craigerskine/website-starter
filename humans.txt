@@ -1,0 +1,13 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Master: Craig Erskine
+  Site: http://domain.com
+  Twitter: user
+  Location: country
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Software: Sketch, Sublime Text
