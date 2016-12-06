@@ -3,7 +3,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 /* natural box model/transistion */
 html { -webkit-box-sizing: border-box; box-sizing: border-box; }
-*,*:before,*:after { -webkit-transition: all 0.2s ease; transition: all 0.2s ease; -webkit-box-sizing: inherit; box-sizing: inherit; }
+*,*:before,*:after { -webkit-box-sizing: inherit; box-sizing: inherit; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
 
 /* elements */
 body { font: 16px/1.5 'Raleway', Arial, sans-serif; background: #333; color: #444; }
