@@ -6,15 +6,12 @@
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
 
-# admin
-  RewriteRule ^_txp/(.*) /textpattern/$1 [L]
-
 # buy
   RewriteRule ^(.*)buy/(.*)$ $1buy.php?buy=$2
 
 # file reving
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(.+)\.(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp)$ $1.$3 [L]
+  RewriteRule ^(.+)\.(\d+)\.(css|cur|gif|ico|jpe?g|js|png|svgz?|webp)$ $1.$3 [L]
 
 # txp rules
   RewriteCond %{REQUEST_FILENAME} -f [OR]
