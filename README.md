@@ -9,4 +9,4 @@ Includes utility classes for simplified Bootstrap-like:
 * Basic Branding
 * Forms
 
-TODO: Utility classes for margin and padding spacing.
+Also includes utility classes for margin and padding spacing as well a rudimentary simple list-to-column options.
