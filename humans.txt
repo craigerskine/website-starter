@@ -1,13 +1,12 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
+# humanstxt.org/
+# The humans responsible & technology colophon
 
-/* TEAM */
-  Master: Craig Erskine
-  Site: http://domain.com
-  Twitter: user
-  Location: country
+# TEAM
 
-/* SITE */
+  Craig Erskine -- Master -- craigerskine.com
+
+# TECHNOLOGY COLOPHON
+
+  Tools: Sketch, Sublime Text
   Standards: HTML5, CSS3
-  Components: jQuery
-  Software: Sketch, Sublime Text
+  Components: jQuery, Modernizr, Normalize.css
