@@ -137,6 +137,7 @@ textarea.form-control { min-height: 150px; line-height: 1.5; resize: vertical; }
 
 /* mobile portrait */
 @media only screen and (max-width: 479px){
+  .u-cols > li { width: auto; float: none; }
 }
 
 /* print */
