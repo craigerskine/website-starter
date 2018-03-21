@@ -3,7 +3,11 @@
 
 /* natural box model/transistion */
 html { -webkit-box-sizing: border-box; box-sizing: border-box; }
-* { -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
+*,*:before,*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  transition: all .25s ease, font-size 0s, letter-spacing 0s;
+}
 
 /* elements */
 body { font: 16px/1.5 'Raleway', Arial, sans-serif; background: #333; color: #444; }
