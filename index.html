@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!--[if gte IE 9]><!-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
   <link href="css/main.css" rel="stylesheet" />
   <!--<![endif]-->
 
@@ -18,25 +18,23 @@
 
 <body>
 
-  <!--[if lt IE 9]><hr /><hr /><hr /><p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><hr /><hr /><hr /><![endif]-->
-
   <div id="page">
     <header id="head">
       <a href="#" class="head-logo">LOGO</a>
+      <nav id="nav">
+        <div class="container">
+          <ul class="nav-menu nav-center">
+            <li><a href="#">Nav Item</a></li>
+            <li><a href="#" class="active">Nav Item</a></li>
+            <li><a href="#">Nav Item</a></li>
+            <li><a href="#">Nav Item</a></li>
+            <li><a href="#">Nav Item</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <nav id="nav">
-      <div class="container">
-        <ul class="nav-menu nav-center">
-          <li><a href="#">Nav Item</a></li>
-          <li><a href="#" class="active">Nav Item</a></li>
-          <li><a href="#">Nav Item</a></li>
-          <li><a href="#">Nav Item</a></li>
-          <li><a href="#">Nav Item</a></li>
-        </ul>
-      </div>
-    </nav>
-    <section id="hero">
-      <img src="holder.js/1200x200/eee/ddd/?text=HERO&auto=yes&outline=yes" />
+    <section id="hero" style="background-image: url('https://picsum.photos/id/184/1440');">
+      <h3>Call to action...</h3>
     </section>
     <main id="body">
 
@@ -79,10 +77,10 @@
                 <legend>Legend</legend>
                 <div class="row">
                   <div class="col-xs-6">
-                    <div class="form-group"><label for="form-control-1">Label</label><input type="text" id="form-control-1" class="form-control" placeholder="Text Field" /></div>
+                    <div class="form-group"><label for="form-control-1">Label</label><input type="text" id="form-control-1" class="form-control" placeholder="Text Field" /> <small>Help text</small></div>
                   </div>
                   <div class="col-xs-6">
-                    <div class="form-group"><label for="form-control-2">Label</label><input type="text" id="form-control-2" class="form-control" placeholder="Another Field" /></div>
+                    <div class="form-group has-error"><label for="form-control-2">Label</label><input type="text" id="form-control-2" class="form-control" placeholder="Another Field" /> <small>Validation message</small></div>
                   </div>
                 </div>
                 <div class="form-group"><label for="form-control-3">Label</label><select id="form-control-3" class="form-control"><option>Choose:</option><option value="Value">Value</option></select></div>
